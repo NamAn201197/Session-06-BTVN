@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: helvetica;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  align-items: center;
+}
+
+.container .child {
+  box-sizing: border-box;
+  margin: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.container .child h3 {
+  margin: 20px;
+}
+
+.container .child img {
+  width: 100%;
+}
+
+.container .child .icon-text {
+  margin: 20px;
+  display: flex;
+}
+
+.container .child .icon-text p {
+  margin-left: 20px;
+}
+
+.container .child .foot {
+  border-top: 1px solid gray;
+  margin: 20px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(94, 152, 223);
+}
+
+.container .child .foot button {
+  padding: 10px;
+  border: dotted thin;
+  background-color: white;
+  color: rgb(94, 152, 223);
+}
